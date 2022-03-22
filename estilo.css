@@ -1,0 +1,44 @@
+body{
+	font-family: tahoma;
+	font-size: 12px;
+	text-align: center;
+	line-height: 2.0;
+}
+h1{
+	font-family: tahoma;
+	text-align: left;
+	font-size: 40px;
+	color: black;
+	font-style: italic;
+}
+.submenu{
+	font-size: 15px;
+}
+.menu{
+	font-size: 20px;
+}
+h3{
+	font-family: tahoma;
+	text-align: justify;
+	font-style: italic;
+	font-weight: 900;
+	color: black;
+}
+.img{
+	float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+p{
+	font-weight: 900;
+	color: black;
+	text-align: justify;
+	font-style: italic;
+	font-family: tahoma;
+	background-color: none;
+}
+footer{
+	text-align: right;
+	font-family: tahoma;
+	color: black;
+}

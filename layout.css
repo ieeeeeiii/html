@@ -1,0 +1,87 @@
+*{margin: 0; padding: 0;}
+
+body{
+	background-image: url("imgs/img8.jpg");
+	background-size: 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+header{
+	/* header, nav, content e footer são para organização */
+	width: 100%;
+	float: left;
+	margin: 15px;
+	background-color: pink;
+}
+nav{
+	display: flex;
+}
+h1{	
+	width: fit-content;
+	padding: 10px 100px 10px 100px;
+}
+.submenu{
+	margin: 15px;
+	list-style: none;
+	float: right;
+	border: 1px solid #c0c0c0;
+}
+.submenu li{
+	position: relative;
+	float: right;
+	border-right:1px solid #c0c0c0;
+}
+.submenu li a{
+	color:#333; 
+	text-decoration:none; 
+	padding: 25px 75px 25px 75px;
+	display:block;
+}
+.submenu li a:hover{
+	background:#333;
+	color:#fff;
+	-moz-box-shadow:0 3px 10px 0 #CCC;
+	-webkit-box-shadow:0 3px 10px 0 #ccc;
+	text-shadow:0px 0px 5px #fff;
+}
+.menu{
+	margin: 15px;
+	list-style: none;
+	border: 1px solid #c0c0c0;
+	float: left;
+}
+.menu li{
+	border-right:1px solid #c0c0c0;
+}
+.menu li a{
+	color:#333; 
+	text-decoration:none; 
+	padding:5px 10px; 
+	display:block;
+	padding: 30px;
+}
+.menu li a:hover{
+	background:#333;
+	color:#fff;
+	-moz-box-shadow:0 3px 10px 0 #CCC;
+	-webkit-box-shadow:0 3px 10px 0 #ccc;
+	text-shadow:0px 0px 5px #fff;
+}
+.content{
+    background-color: pink;
+	float: right;
+	margin: 20px;
+	padding: 20px;
+}
+main{
+	display: inline-flex;
+}
+footer{
+	width: 100%;
+	background-color: pink;
+	float: left;
+	/* margin é a distância duma caixa pra outra*/
+	margin: 15px;
+	/*padding é a distância do conteúdo interno pra própria caixa*/
+	padding: 15px;
+}

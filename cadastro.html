@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>cadastro</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css"/>
+	<link rel="stylesheet" type="text/css" href="layout.css"/>
+
+</head>
+<body>
+	
+	<header>
+		<nav>
+			<a href="index.html"><h1>Hotel Urbano</h1></a>
+			<ul  class="submenu">
+				  <li><a href="galeria.odp">Galeria</a></li>
+				  <li><a href="referencias.docx">Referências</a></li>
+				  <li><a href="agradecimentos.txt">Agradecimentos</a></li>
+			</ul>
+		</nav>
+	</header>
+
+<main>
+	<section>
+		<nav>
+	       <ul class="menu">
+	          <li><a href="servicos.html">Serviços</a></li>
+	          <li><a href="acomodacoes.html">Acomodações</a></li>
+	          <li><a href="parceiros.html">Parcerias</a></li>
+	          <li><a href="cadastro.html">Cadastro</a></li>
+	        </ul>
+	    </nav>
+	 </section>
+	 <section class="content">
+	 	<div>
+	 		<h3>Por favor, para efetuar o seu cadastro, responda o formulário a seguir:</h3>
+	     <form>
+       <label for="nome">Nome Completo:</label><br>
+       <input type="text" id="nome" name="nome" value="nome"><br><br>
+       <label for="email">Email:</label><br>
+       <input type="text" id="email" name="email" value="email"><br><br>
+       <label for="telefone">Telefone:</label><br>
+       <input type="text" id="telefone" name="telefone" value="telefone"><br><br>
+       <label for="endereco">Endereço:</label><br>
+       <input type="text" id="endereco" name="endereco" value="endereço"><br>
+     </form>
+	 	</div><hr>
+	 	<div>
+	 		<br><h3>Para reservar uma viagem, escolha:</h3>
+		<label for="destino">Destino:</label>
+    <select name="destino">
+  	<option>Disney</option>
+  	<option>Paris</option>
+  	<option>Londres</option>
+    </select>
+	 	</div>
+	 	<div>
+	 		<label for="diarias">Diárias:</label>
+  <select name="diarias">
+  	<option>1</option>
+  	<option>2</option>
+  	<option>3</option>
+  	<option>4</option>
+  	<option>5</option>
+  	<option>6</option>
+  	<option>7</option>
+  </select>
+	 	</div>
+	<div>
+		<form>
+  <label for="acomodacoes">Acomodações:</label><br>
+	 <input type="radio" id="tipo1" name="tipo1" value="tipo1">
+     <label for="tipo1">Tipo 1</label>
+	 <input type="radio" id="tipo2" name="tipo2" value="tipo2">
+     <label for="tipo2">Tipo 2</label>
+     <input type="radio" id="tipo3" name="tipo3" value="tipo3">
+     <label for="tipo3">Tipo 3</label>
+    </form>
+	</div><hr>
+	<div>
+		<br><p>Deixe seu comentário:</p>
+	<textarea name="comentario" rows="10" cols="50">
+Comente aqui!</textarea>
+<br><p>Confira suas informações e confirme aqui!
+  <input type="submit" value="Submit"></p>
+	</div>	
+</section>
+</main>  
+
+<hr><footer>Para mais informações ligue: (00) 00000-0000</footer>
+
+</body>
+</html>
